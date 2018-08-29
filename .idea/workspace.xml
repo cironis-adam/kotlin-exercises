@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56fd714-b890-4376-88d0-f44cc1cf7b84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/caesar_cipher.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/morse_code.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,25 +28,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="kt" value="3" />
+          <entry key="kt" value="4" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="Kotlin" value="3" />
+          <entry key="Kotlin" value="4" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="1445" />
+          <entry key="kt" value="1950" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="1445" />
+          <entry key="Kotlin" value="1950" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -65,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/caesar_cipher.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state>
+              <caret selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/morse_code.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -102,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/multiplication_table.kt" />
         <option value="$PROJECT_DIR$/src/app.kt" />
         <option value="$PROJECT_DIR$/src/caesar_cipher.kt" />
+        <option value="$PROJECT_DIR$/src/morse_code.kt" />
       </list>
     </option>
   </component>
@@ -158,7 +168,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535539479310" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535540682631" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -178,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Caesar_cipherKt">
+  <component name="RunManager" selected="Kotlin.Morse_codeKt">
     <configuration name="AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="StudyProject" />
       <option name="VM_PARAMETERS" />
@@ -205,6 +215,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Morse_codeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="StudyProject" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Morse_codeKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Multiplication_tableKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="StudyProject" />
       <option name="VM_PARAMETERS" />
@@ -222,9 +245,11 @@
       <item itemvalue="Kotlin.AppKt" />
       <item itemvalue="Kotlin.Multiplication_tableKt" />
       <item itemvalue="Kotlin.Caesar_cipherKt" />
+      <item itemvalue="Kotlin.Morse_codeKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Morse_codeKt" />
         <item itemvalue="Kotlin.Caesar_cipherKt" />
         <item itemvalue="Kotlin.AppKt" />
         <item itemvalue="Kotlin.Multiplication_tableKt" />
@@ -246,12 +271,12 @@
       <workItem from="1535453615498" duration="3049000" />
       <workItem from="1535483795478" duration="1930000" />
       <workItem from="1535492040215" duration="4730000" />
-      <workItem from="1535530332066" duration="4416000" />
+      <workItem from="1535530332066" duration="5625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16579000" />
+    <option name="totallyTimeSpent" value="17788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1087" width="1550" height="838" extended-state="6" />
@@ -324,8 +349,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/caesar_cipher.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state>
+          <caret selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/morse_code.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
         </state>
       </provider>
     </entry>
