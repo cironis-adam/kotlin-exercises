@@ -21,6 +21,6 @@ fun main(args: Array<String>) {
     }
 
     println("Message: $message")
-    println("Coded message: $decodedMessage")
-    
+    println("Decoded message: $decodedMessage")
+
 }
